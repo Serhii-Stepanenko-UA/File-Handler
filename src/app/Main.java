@@ -9,7 +9,7 @@ public class Main {
         String fileName = "myfile";
         String fileContent = "My very important information.";
         String result = handler.writeFile(fileName, fileContent);
-        String content = handler.readFile(BASE_PATH + "fileName" + ".txt");
+        String content = handler.readFile(BASE_PATH + fileName + ".txt");
         getOutput("RESULT: " + result);
         getOutput("FILE CONTENT: " + content);
     }
